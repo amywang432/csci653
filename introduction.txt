@@ -1,4 +1,4 @@
-Introduction to CSCI 653 project
+**Introduction to CSCI 653 project**
 This is my initial idea about how to develop my CSCI 653 project. Some changes may be made with the development of this project in this semester.
 
 Nowadays Big Data is a very hot topic. Many companies collect large amount of data from different sources. 
