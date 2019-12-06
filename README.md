@@ -23,4 +23,4 @@ Spark Streaming: an extension of the core Spark API that enables scalable, high-
 # Reference
 [1] https://flume.apache.org;
 [2] https://kafka.apache.org/intro;
-[3] https://spark.apache.org/docs/latest/streaming-programming-guide.html#overview;
+[3] https://spark.apache.org/docs/latest/streaming-programming-guide.html#overview.
