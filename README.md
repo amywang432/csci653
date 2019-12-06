@@ -14,3 +14,13 @@ With so many powerful open-source big data tools, framework and software availab
 
 
 
+Apache Flume: A distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data. It has a simple and flexible architecture based on streaming data flows. It is robust and fault tolerant with tunable reliability mechanisms and many failover and recovery mechanisms. It uses a simple extensible data model that allows for online analytic application.[1]
+
+Apache Kafka: Publish and subscribe to streams of records, similar to a message queue or enterprise messaging system.
+
+Spark Streaming: an extension of the core Spark API that enables scalable, high-throughput, fault-tolerant stream processing of live data streams. Data can be ingested from many sources like Kafka, Flume, Kinesis, or TCP sockets, and can be processed using complex algorithms expressed with high-level functions like map, reduce, join and window. Finally, processed data can be pushed out to filesystems, databases, and live dashboards. In fact, you can apply Spark’s machine learning and graph processing algorithms on data streams.
+
+# Reference
+[1] https://flume.apache.org;
+[2] https://kafka.apache.org/intro
+[3] https://spark.apache.org/docs/latest/streaming-programming-guide.html#overview
