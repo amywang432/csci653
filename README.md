@@ -13,7 +13,7 @@ To meet all requirements about big data processing, many useful and powerful big
 With so many powerful open-source big data tools, framework and software available, I plan to do website activiy log processing system using Hadoop, Spark, Kafka and so on so that the system can finish off-line query and process data streaming efficienty. That is my initial plan for my CSCI 653 project. I may add more contents with the development of this project.
 
 
-
+## Flume, Kafka and Spark Streaming
 Apache Flume: A distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data. It has a simple and flexible architecture based on streaming data flows. It is robust and fault tolerant with tunable reliability mechanisms and many failover and recovery mechanisms. It uses a simple extensible data model that allows for online analytic application.[1]
 
 Apache Kafka: Publish and subscribe to streams of records, similar to a message queue or enterprise messaging system.
