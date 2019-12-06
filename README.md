@@ -13,3 +13,7 @@ With so many powerful open-source big data tools, framework and software availab
 
 
 ![Alt text](pic/Process.png)
+
+Apache Flume is a distributed framework for efficiently collecting, aggregating, and moving large amounts of log data.
+Apache Kafka is an efficient, distributed messaging system.
+Spark Streaming enables high-throughput stream processing of live data streams. Data can be processed using complex algorithms like map and reduce.
