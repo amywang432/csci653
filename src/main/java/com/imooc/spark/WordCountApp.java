@@ -12,9 +12,6 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * 使用Java开发Spark应用程序
- */
 public class WordCountApp {
 
     public static void main(String[] args) {
@@ -23,7 +20,6 @@ public class WordCountApp {
                 .appName("WordCountApp").master("local[2]")
                 .getOrCreate();
 
-        //TODO...处理我们的业务逻辑
         JavaRDD<String> lines = spark.read()
                 .textFile("/Users/rocky/data/hello.txt").javaRDD();
 
