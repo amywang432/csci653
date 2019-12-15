@@ -9,9 +9,6 @@ import scala.Tuple2;
 
 import java.util.Arrays;
 
-/**
- * 使用Java开发Spark Streaming应用程序
- */
 public class StreamingWordCountApp {
 
     public static void main(String[] args) throws Exception {
@@ -20,7 +17,6 @@ public class StreamingWordCountApp {
                 .setAppName("StreamingWordCountApp");
         JavaStreamingContext jssc = new JavaStreamingContext(conf, Durations.seconds(5));
 
-        // 创建一个DStream(hostname + port)
         JavaReceiverInputDStream<String> lines = jssc
                 .socketTextStream("localhost", 9999);
 
@@ -30,7 +26,6 @@ public class StreamingWordCountApp {
                         new Tuple2<String,Integer>(word, 1))
                 .reduceByKey((x,y) -> x+y);
 
-        // 输出到控制台
         counts.print();
 
         jssc.start();
