@@ -1,6 +1,5 @@
-# Summary report for CSCI653
-## Name: Yimin Wang
-## Real-time data stream processing
+# Summary report for CSCI653 - Real-time data stream processing
+## Author's name: Yimin Wang
 
 # Problem description
 Nowadays web companies are collecting large amount of data from different sources in short time. It becomes more and more challenging and important to store and maintain large data-sets in a highly distributed system, process a complex query efficiently on the large data set as required for data analysis and accomplish real time big data streaming fast. 
