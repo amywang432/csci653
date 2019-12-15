@@ -1,7 +1,7 @@
 package com.imooc.spark.kafka;
 
 /**
- * Kafka Java API测试
+ * Kafka Java API
  */
 public class KafkaClientApp {
 
