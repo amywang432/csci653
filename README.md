@@ -33,7 +33,7 @@ MySQL is an open-source relational database management system (RDBMS). There are
 # Techniques to be used
 Actually in the part above, we already talked about what technique should be used for each part. All the techniques chosen for this project are already used widely in some big software companies and proven to be very stable and with high performance due to their scalability and fault-tolerance. All the four open-source frameworks or services used for this project are developed by Apache community.
 
-![](process.png)
+![](stepsWithTech.png)
 
 # Expected results
 With so many powerful open-source big data tools, framework and software available, I plan to do website activiy log processing system using Hadoop, Spark, Kafka and so on so that the system can finish off-line query and process data streaming efficienty. That is my initial plan for my CSCI 653 project. I may add more contents with the development of this project.
