@@ -46,6 +46,11 @@ Some files about Spark Streaming is programmed in Scala. Some practice programs 
 
 This project implements the whole data streaming processing pipeline.
 
+# Future work
+
+Data visualization
+Apache Zeppelin or ECharts can be used to visualize data pulled from HBase. I will figure out how to use them to visualize processed data results.
+
 
 
 ## Reference
