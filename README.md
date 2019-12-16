@@ -36,6 +36,7 @@ Actually in the part above, we already talked about what technique should be use
 ![](stepsWithTech.png)
 
 # Results
+In this project, we randomly generate some fake data of users' surfing activity for viewing course pages in a fake online education website. Every entity of data consists of user ID, timestamp, courseID and purchase status. One fake data source is used to generate large amound of data.
 
 
 
