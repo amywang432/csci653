@@ -19,15 +19,19 @@ The following picture shows how to process streaming data step by step.
 In the picture above, the whole process is divided into different core part. I will talk about each part repectively.
 
 (1) Data collector
+
 Currently, Apache Flume is the most famous service for transforming large amount of streaming data. Apache Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data designed based on streaming data flows. [3]
 
 (2) Messaging system
+
 Currently, there are multiple messaging system services used in the world, such as Apache Kafka and RabbitMQ. In our project, we prefer to use Apache Kafka due to its high performance and wide application. It was originally developed by LinkedIn and endorsed by Apache Community. Apache Kafka can be used to publish and subscribe to streams of data, similar to a message queue or enterprise messaging system.[4] 
 
 (3) Streaming processing service
+
 Spark Streaming is one of the most widely used open-source streaming processing service. It is an extension of the principle Spark API enabling high-throughput and fault-tolerant stream processing of real-time data streams. Data can be ingested from many sources like Kafka, Flume, and can be processed using some high-level functions like map, reduce, join and window. And processed data can be pushed out to external databases.[5] 
 
 (4) Database
+
 MySQL is an open-source relational database management system (RDBMS). There are many types of NoSQL databases in the world. In this project, we choose to use Apache HBase due to its high integration with Hadoop file systems and being highly suitable when real-time and random read/write access to huge volumes of data are required.
 
 # Techniques to be used
@@ -49,6 +53,7 @@ This project implements the whole data streaming processing pipeline.
 # Future work
 
 Data visualization
+
 Apache Zeppelin or ECharts can be used to visualize data pulled from HBase. I will figure out how to use them to visualize processed data results.
 
 
