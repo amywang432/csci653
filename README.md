@@ -13,14 +13,22 @@ The following picture shows how to process streaming data step by step.
 (3) A distributed messaging system is used to store and process the data temporarily to decouple data collector and streaming processing part.
 (4) A distributed streaming process service is used to process streaming data and do some map-reduce operations.
 (5) A database will store all processed data results to later analysis.
+
 ![](pic/steps.png)
 
+# Current state of the knowledge/previous work
+In the picture above, the whole process is divided into different core part. I will talk about each part repectively.
+(1) Data collector
+Currently, Apache Flume is the most famous service for transforming large amount of streaming data. Apache Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data designed based on streaming data flows. [3]
+
+(2) Messaging system
+Currently, there are multiple messaging system services used in the world, such as Apache Kafka and RabbitMQ. In our project, we prefer to use Apache Kafka due to its high performance and wide application. It was originally developed by LinkedIn and endorsed by Apache Community. Apache Kafka can be used to publish and subscribe to streams of data, similar to a message queue or enterprise messaging system.[4]
 
 # Process
 ![](process.png)
 To meet all requirements about big data processing, many useful and powerful big data softwares and tools are devevloped and open-sourced by famous companies so that we can use them to meet most basic requirements. Currently, Apache Hadoop is still a powerful tool to maintain a highly distributed file system (HDFS) with Yarn to control resource management and job scheduling. Many other open-source software are built on top of Hadoop. For exmaple, Apache Spark is a cluster-computing framework which is compatible with Hadoop data through Yarn and it dramatically improves the performance of Map-Reduce. Also, Spark Streaming is a powerful tool to process data streaming.
 
-# Current state of the knowledge/previous work
+
 # Techniques to be used
 
 # Expected results
@@ -28,9 +36,9 @@ With so many powerful open-source big data tools, framework and software availab
 
 
 ## Flume, Kafka and Spark Streaming
-Apache Flume: A distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data. It has a simple and flexible architecture based on streaming data flows. It is robust and fault tolerant with tunable reliability mechanisms and many failover and recovery mechanisms. It uses a simple extensible data model that allows for online analytic application.[1]
 
-Apache Kafka: Publish and subscribe to streams of records, similar to a message queue or enterprise messaging system.[2]
+
+
 
 Spark Streaming: an extension of the core Spark API that enables scalable, high-throughput, fault-tolerant stream processing of live data streams. Data can be ingested from many sources like Kafka, Flume, Kinesis, or TCP sockets, and can be processed using complex algorithms expressed with high-level functions like map, reduce, join and window. Finally, processed data can be pushed out to filesystems, databases, and live dashboards. In fact, you can apply Spark’s machine learning and graph processing algorithms on data streams.[3]
 
