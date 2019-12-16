@@ -1,5 +1,5 @@
 # Summary report for CSCI653 
-- Real-time data stream processing
+# Project: Real-time data stream processing
 ## Name: Yimin Wang
 
 # Goal
