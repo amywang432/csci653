@@ -13,7 +13,7 @@ The following picture shows how to process streaming data step by step.
 (4) A distributed streaming process service is used to process streaming data and do some map-reduce operations.
 (5) A database will store all processed data results to later analysis.
 
-![](pic/steps.png)
+![](steps.png)
 
 ## Current state of the knowledge/previous work
 In the picture above, the whole process is divided into different core part. I will talk about each part repectively.
