@@ -18,6 +18,7 @@ The following picture shows how to process streaming data step by step.
 
 # Current state of the knowledge/previous work
 In the picture above, the whole process is divided into different core part. I will talk about each part repectively.
+
 (1) Data collector
 Currently, Apache Flume is the most famous service for transforming large amount of streaming data. Apache Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data designed based on streaming data flows. [3]
 
@@ -44,7 +45,12 @@ Spark Streaming: an extension of the core Spark API that enables scalable, high-
 
 # Reference
 [1] https://www.scnsoft.com/blog/real-time-big-data-analytics-comprehensive-guide
+
 [2] https://www.bmc.com/blogs/batch-processing-stream-processing-real-time/
+
 [3] https://flume.apache.org;
+
 [4] https://kafka.apache.org/intro;
+
 [5] https://spark.apache.org/docs/latest/streaming-programming-guide.html#overview.
+
