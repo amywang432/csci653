@@ -35,8 +35,8 @@ Actually in the part above, we already talked about what technique should be use
 
 ![](stepsWithTech.png)
 
-# Expected results
-With so many powerful open-source big data tools, framework and software available, I plan to do website activiy log processing system using Hadoop, Spark, Kafka and so on so that the system can finish off-line query and process data streaming efficienty. That is my initial plan for my CSCI 653 project. I may add more contents with the development of this project.
+# Results
+
 
 
 ## Reference
