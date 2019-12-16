@@ -37,9 +37,14 @@ Actually in the part above, we already talked about what technique should be use
 
 # Results
 In this project, we randomly generate some fake data of users' surfing activity for viewing course pages in a fake online education website. Every entity of data consists of user ID, timestamp, courseID and purchase status. One fake data source is used to generate large amound of data.
+
 For Apache Flume, a lot of work is done to modify configuration files and no much work is about programming. Since configuration is highly related to different server or computer, no file is uploaded for Apache Flume.
+
 Some files about how to create Apache Kafka Client, Producer and Consumer and how to connect Apache Kafka with Apache Flume and Sparking Streaming. They are programming in JAVA.
 
+Some files about Spark Streaming is programmed in Scala. Some practice programs are also uploaded such as word frequency counting. The file for this project can be used to counts the viewing times for each course in some specific time periods.
+
+This project implements the whole data streaming processing pipeline.
 
 
 
