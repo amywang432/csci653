@@ -13,7 +13,7 @@ The following picture shows how to process streaming data step by step.
 (3) A distributed messaging system is used to store and process the data temporarily to decouple data collector and streaming processing part.
 (4) A distributed streaming process service is used to process streaming data and do some map-reduce operations.
 (5) A database will store all processed data results to later analysis.
-![](pic/steps.png)
+![](pic/steps.png =100x100)
 
 
 # Process
